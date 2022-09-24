@@ -1,4 +1,4 @@
-.footer1 {
+.footer {
     background-color: #26262b;
     padding: 30px 0;
     position: absolute;
@@ -7,7 +7,7 @@
     max-height: 400px;
 }
 
-.container1 {
+.container {
     max-width: 1170px;
     margin: auto;
 }
@@ -17,17 +17,17 @@ ul{
     padding-left: 0;
 }
 
-.row1{
+.row{
     display: flex;
     flex-wrap: wrap;
 }
 
-.footer-col1{
+.footer-col{
     width: 25%;
     padding: 0 15px;
 }
 
-.footer-col1 h4{
+.footer-col h4{
     font-size: 18px;
     color: #ffffff;
     text-transform: capitalize;
@@ -36,7 +36,7 @@ ul{
     position: relative;
 }
 
-.footer-col1 h4::before{
+.footer-col h4::before{
     content: '';
     position: absolute;
     left: 0;
@@ -46,10 +46,10 @@ ul{
     box-sizing: border-box;
     width: 50px;
 }
-.footer-col1 ul li:not(:last-child){
+.footer-col ul li:not(:last-child){
     margin-bottom: 10px;
 }
-.footer-col1 ul li a{
+.footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
     columns: #ffffff;
@@ -59,11 +59,11 @@ ul{
     display: block;
     transition: all 0.3s ease;
 }
-.footer-col1 ul li a:hover{
+.footer-col ul li a:hover{
     color: #ffffff;
     padding-left: 8px;
 }
-.footer-col1 .social-links a{
+.footer-col .social-links a{
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -75,20 +75,20 @@ ul{
     color: #ffffff;
     transition: all 0.5s ease;
 }
-.footer-col1 .social-links a:hover{
+.footer-col .social-links a:hover{
     color: #24262b;
     background-color: #ffffff;
 }
 
 /* responsive */
 @media(max-width:767px){
-    .footer-col1 {
+    .footer-col {
         width: 50%;
         margin-bottom: 30px;
     }
 }
 @media(max-width:574px){
-    .footer-col1 {
+    .footer-col {
         width: 100%;
         margin-bottom: 30px;
     }
