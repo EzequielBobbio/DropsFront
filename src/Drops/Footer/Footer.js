@@ -2,7 +2,6 @@ import React from 'react';
 import './Footer.css';
 import { FaFacebookF } from 'react-icons/fa'
 import { BsInstagram } from "react-icons/bs";
-// import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 class Footer extends React.Component {
     constructor(props) {
@@ -21,7 +20,7 @@ class Footer extends React.Component {
                 <ul>
                     <li><a href="#/">Acerca de nosotros</a></li>
                     <li><a href="#/">Nuestros servicios</a></li>
-                    <li><a href="#/">Politica de privacidad</a></li>
+                    <li><a href="#/">Política de privacidad</a></li>
                 </ul>
               </div>
               <div className="footer-col">
