@@ -2,7 +2,6 @@ import React from 'react';
 import './Footer.css';
 import { FaFacebookF } from 'react-icons/fa'
 import { BsInstagram } from "react-icons/bs";
-// import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 class Footer extends React.Component {
     constructor(props) {
@@ -13,18 +12,18 @@ class Footer extends React.Component {
   render() {
     return (
       <>
-        <footer className="footer">
-          <div className="container">
-            <div className="row">
-              <div className="footer-col">
+        <footer className="footer1">
+          <div className="container1">
+            <div className="row1">
+              <div className="footer-col1">
                 <h4>Empresa</h4>
                 <ul>
                     <li><a href="#/">Acerca de nosotros</a></li>
                     <li><a href="#/">Nuestros servicios</a></li>
-                    <li><a href="#/">Politica de privacidad</a></li>
+                    <li><a href="#/">Política de privacidad</a></li>
                 </ul>
               </div>
-              <div className="footer-col">
+              <div className="footer-col1">
                 <h4>Ayuda</h4>
                 <ul>
                   <li><a href="#/">Preguntas frecuentes</a></li>
@@ -34,7 +33,7 @@ class Footer extends React.Component {
                   <li><a href="#/">Métodos de pago</a></li>
                 </ul>
               </div>
-              <div className="footer-col">
+              <div className="footer-col1">
                 <h4>Compra Online</h4>
                 <ul>
                   <li><a href="#/">Pami</a></li>
@@ -43,7 +42,7 @@ class Footer extends React.Component {
                   <li><a href="#/">Salud y Farmacia</a></li>
                 </ul>
               </div>
-              <div className="footer-col">
+              <div className="footer-col1">
                 <h4>Redes Sociales</h4>
                 <script src="https://kit.fontawesome.com/b50de914ce.js" crossorigin="anonymous"></script>
                 <div className="social-links">
