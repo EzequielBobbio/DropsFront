@@ -15,9 +15,29 @@
 
 .letter-color {
     color: aliceblue;
+    margin-bottom: 0.3rem;
 }
 
 .form-button {
     font-size: 1rem;
     border-radius: 0.3rem;
+    margin-top: 1rem;
+    position: relative;
+    margin-left: 320px;
+    width: 5rem;
+}
+
+.form-size {
+    height: 2rem;
+    width: 25rem;
+}
+
+.form-size1 {
+    height: 5rem;
+    width: 25rem;
+}
+
+.form-position {
+    display: grid;
+    place-content: center;
 }
