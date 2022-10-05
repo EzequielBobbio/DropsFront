@@ -1,6 +1,9 @@
 import React from "react";
 import "./Contact.css";
 import { BsWhatsapp } from "react-icons/bs";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 class Contact extends React.Component {
   constructor(props) {
@@ -20,30 +23,46 @@ class Contact extends React.Component {
           >
             <BsWhatsapp />
           </a>
-          <div class="mb-3 form-position">
-            <label for="exampleFormControlInput1" class="form-label" className='letter-color'>
-              Email
-            </label>
-            <input
-              type="email"
-              class="form-control form-size"
-              id="exampleFormControlInput1"
-              placeholder="nombre@ejemplo.com"
-            />
-          </div>
-          <div class="mb-3 form-position">
-            <label for="exampleFormControlTextarea1" class="form-label" className='letter-color'>
-                Motivo de consulta
-            </label>
-            <div className='form-size1'>
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-            ></textarea> 
-            </div>
-            <button type='submit' className='form-button'>Enviar</button>
-          </div>
+          <Container className="letter-col">
+            <Row>
+              <Col xs={7}>1 of 3</Col>
+              <Col>
+                <Row>
+                  <Col>
+                    <label for="exampleFormControlInput1" class="form-label">
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="name@example.com"
+                    />
+                  </Col>
+                </Row>
+
+                <Row>
+                  <Col className='comment-position'>
+                    <label for="exampleFormControlTextarea1" class="form-label">
+                      Comentario
+                    </label>
+                    <textarea
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="4"
+                    ></textarea>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <button type="submit" className="form-button">
+                      Enviar
+                    </button>
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Container>
         </div>
       </>
     );

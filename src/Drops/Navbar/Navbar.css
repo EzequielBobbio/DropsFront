@@ -79,3 +79,7 @@ nav a:hover{
 .text-color {
     color: #bbbbbb;
 }
+
+.letter-navbar {
+    letter-spacing: 0.15rem;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { FaFacebookF } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
+import { BsWhatsapp } from "react-icons/bs";
 
 class Footer extends React.Component {
   constructor(props) {
@@ -50,19 +51,17 @@ class Footer extends React.Component {
                 </ul>
               </div>
               <div className="footer-col">
-                <h4>Compra Online</h4>
+                <h4>Visitanos</h4>
                 <ul>
                   <li>
-                    <a href="#/">Pami</a>
+                    <p href="#/">Nogoya 3141, Villa del Parque, CABA, Argentina</p>
+                  </li>
+                  <h4>Contacto</h4>
+                  <li>
+                    <p href="#/">(11)3087-3144</p>
                   </li>
                   <li>
-                    <a href="#/">Belleza</a>
-                  </li>
-                  <li>
-                    <a href="#/">Cuidado Personal</a>
-                  </li>
-                  <li>
-                    <a href="#/">Salud y Farmacia</a>
+                    <p href="#/">farmaciadrops@gmail.com</p>
                   </li>
                 </ul>
               </div>
@@ -86,6 +85,13 @@ class Footer extends React.Component {
                     rel="noreferrer"
                   >
                     <BsInstagram />
+                    </a>
+                  <a
+                    href="https://wa.me/5491130873144?text=Hola%2C%20quer%C3%ADa%20preguntar%20sobre..."
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <BsWhatsapp/>
                   </a>
                 </div>
               </div>
