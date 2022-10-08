@@ -1,0 +1,40 @@
+.container-drops-card {
+    background-color: #1a1a1d;
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-image 10s steps(3) 500ms;
+    transition-delay: 2s;
+}
+
+h2:hover {
+    cursor: pointer;
+}
+
+.h2-visual:hover {
+    background-image: linear-gradient(45deg, rgb(143, 235, 238), rgb(88, 249, 147));
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -ms-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;    
+}
+
+li {
+    color: #ffffff;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    position: relative;
+
+}

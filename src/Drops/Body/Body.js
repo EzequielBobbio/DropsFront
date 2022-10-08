@@ -1,10 +1,9 @@
-/* eslint-disable no-unused-expressions */
-// import React from 'react';
 import "./Body.css";
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import backgroundimage from "../Assets/bgimage.jpg";
 import Contact from './Contact/Contact';
+import Cards from './Drops-Cards/Drops-Cards';
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -37,6 +36,7 @@ function ControlledCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <Cards/>
       <Contact/>
     </>
   );
