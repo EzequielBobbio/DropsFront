@@ -23,39 +23,46 @@ class Contact extends React.Component {
                 <div className='whatsapp-contact-text'>
                   Contáctanos a través de:
                 </div>
+                <div className='social-media-position'>
                 <div className='social-media-name whatsapp-color'>
                   WhatsApp
                 </div>
                 <a
-                  class="whatsappcontact"
+                  class="whatsappcontact whatsapp-color-icon"
                   href="https://wa.me/5491130873144?text=Hola%2C%20quer%C3%ADa%20preguntar%20sobre..."
                   target="_blank"
                   rel="noreferrer"
                 >
                   <BsWhatsapp />
+                  
                 </a>
+                </div>
+                <div className='social-media-position'>
                 <div className='social-media-name facebook-color'>
                   Facebook
                 </div>
                 <a
-                  class="facebook-color"
-                  href="https://wa.me/5491130873144?text=Hola%2C%20quer%C3%ADa%20preguntar%20sobre..."
+                  class="facebook-color-icon"
+                  href="https://www.facebook.com/FarmaciaDrops"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <FaFacebookF />
                 </a>
+                </div>
+                <div className='social-media-position'>
                 <div className='social-media-name instagram-color'>
                   Instagram
                 </div>
                 <a
-                  class="instagram-color"
-                  href="https://wa.me/5491130873144?text=Hola%2C%20quer%C3%ADa%20preguntar%20sobre..."
+                  class="instagram-color-icon"
+                  href="https://www.instagram.com/farmacia_drops/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <BsInstagram />
                 </a>
+                </div>
               </Col>
               <Col>
                 <Row>
@@ -67,7 +74,7 @@ class Contact extends React.Component {
                       type="email"
                       class="form-control"
                       id="exampleFormControlInput1"
-                      placeholder="name@example.com"
+                      placeholder="nombre@ejemplo.com"
                     />
                   </Col>
                 </Row>

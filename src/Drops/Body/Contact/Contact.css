@@ -1,11 +1,11 @@
 .whatsappcontact {
     display: grid;
     place-content: center;
-    padding-top: 1rem;
+    padding-top: 0.75rem;
   }
 
 .whatsappcontact{
-    color: rgb(109, 236, 109);
+    color: rgb(80, 190, 80);
 }
 
 .bar {
@@ -27,7 +27,7 @@
 }
 
 .email-padding {
-    padding-top: 0.5rem;
+    padding-top: 0.8rem;
 }
 
 .letter-col {
@@ -35,7 +35,7 @@
 }
 
 .comment-position {
-    padding-top: 0.5rem;
+    padding-top: 0.8rem;
 }
 
 .whatsapp-contact-text {
@@ -54,15 +54,32 @@
 }
 
 .whatsapp-color {
-    color: rgb(109, 236, 109);
+    color: rgb(70, 203, 70);
 }
+
+.whatsapp-color-icon:hover {
+    color: rgb(119, 236, 119);
+}
+
 .facebook-color {
     color: rgb(59, 162, 236);
     display: grid;
     place-content: center;
-    padding-top: 0.5rem;
-    margin-bottom: 0.5rem;
 }
+
+.facebook-color-icon {
+    color: rgb(27, 134, 210);
+    display: grid;
+    place-content: center;
+    padding-top: 0.75rem;
+}
+
+.facebook-color-icon:hover {
+    color: rgb(92, 174, 233);
+    display: grid;
+    place-content: center;
+}
+
 .instagram-color {
     background-image: linear-gradient(45deg, rgb(242, 15, 53), rgb(241, 94, 16), rgb(115, 21, 248),rgb(210, 15, 235));
     -webkit-background-clip: text;
@@ -75,16 +92,21 @@
     filter: brightness(1.5);
 }
 
-.instagram-color {
+.instagram-color-icon {
     display: grid;
     place-content: center;
-    padding-top: 1rem;
-    background-color: linear-gradient(45deg, rgb(242, 15, 53), rgb(241, 94, 16), rgb(115, 21, 248),rgb(210, 15, 235));
-    -webkit-background-clip: text;
-    -ms-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    -ms-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    -webkit-text-fill-color: transparent;
+    padding-top: 0.75rem;
+    color: rgb(195, 56, 237);
+    filter: brightness(1.5);
+    text-decoration: none;
   }
+
+.instagram-color-icon:hover {
+    filter: brightness(1.7);
+    color: rgb(209, 72, 225);
+}
+
+.social-media-position {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}

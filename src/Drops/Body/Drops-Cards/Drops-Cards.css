@@ -54,3 +54,17 @@ li {
   padding-bottom: 1rem;
   position: relative;
 }
+
+.img-dimensions {
+  display: flex;
+  justify-content: center;
+  max-width: 25vw;
+  max-height: 30vh;
+  background-size: cover;
+  padding-bottom: 1rem;
+}
+
+.img-position {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -19,7 +19,15 @@ class Cards extends React.Component {
           </div>
           <Container>
             <Row>
-              <Col xs={7}>1 of 3</Col>
+              <Col xs={6}>
+                <div className='img-position'>
+                <img
+                  className="img-dimensions"
+                  src="/img/tarjeta.png"
+                  alt="Mujer posando"
+                />
+                </div>
+              </Col>
               <Col>
                 <Row>
                   <Col>
