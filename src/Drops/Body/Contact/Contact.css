@@ -1,16 +1,17 @@
 .whatsappcontact {
     display: grid;
     place-content: center;
+    padding-top: 1rem;
   }
 
-.whatsappcontact:hover {
-    color: rgb(23, 220, 23);
+.whatsappcontact{
+    color: rgb(109, 236, 109);
 }
 
 .bar {
     background-color: #1a1a1d;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-top: 0.35rem;
+    padding-bottom: 1rem;
 }
 
  .letter-color {
@@ -25,6 +26,10 @@
     width: 5rem;
 }
 
+.email-padding {
+    padding-top: 0.5rem;
+}
+
 .letter-col {
     color: white;
 }
@@ -32,3 +37,54 @@
 .comment-position {
     padding-top: 0.5rem;
 }
+
+.whatsapp-contact-text {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+
+.social-media-name {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.7rem;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+.whatsapp-color {
+    color: rgb(109, 236, 109);
+}
+.facebook-color {
+    color: rgb(59, 162, 236);
+    display: grid;
+    place-content: center;
+    padding-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.instagram-color {
+    background-image: linear-gradient(45deg, rgb(242, 15, 53), rgb(241, 94, 16), rgb(115, 21, 248),rgb(210, 15, 235));
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -ms-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    filter: brightness(1.5);
+}
+
+.instagram-color {
+    display: grid;
+    place-content: center;
+    padding-top: 1rem;
+    background-color: linear-gradient(45deg, rgb(242, 15, 53), rgb(241, 94, 16), rgb(115, 21, 248),rgb(210, 15, 235));
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -ms-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
