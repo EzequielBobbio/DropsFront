@@ -50,7 +50,6 @@ class Cards extends React.Component {
               </Col>
             </Row>
           </Container>
-          <ul></ul>
         </div>
       </>
     );

@@ -4,6 +4,8 @@ import Carousel from "react-bootstrap/Carousel";
 import backgroundimage from "../Assets/bgimage.jpg";
 import Contact from './Contact/Contact';
 import Cards from './Drops-Cards/Drops-Cards';
+import Button from './Buttons/Button';
+import CarouselOS from './Carousel-Obras-Sociales/Carousel-OS'
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -37,6 +39,8 @@ function ControlledCarousel() {
         </Carousel.Item>
       </Carousel>
       <Cards/>
+      <CarouselOS/>
+      <Button/>
       <Contact/>
     </>
   );

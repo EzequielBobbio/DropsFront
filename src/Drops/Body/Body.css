@@ -203,8 +203,7 @@
    height: 100vh;
 }
 
-.item,
- img{
+.item img{
     height: 1080px;
     width:  100%;
 }
